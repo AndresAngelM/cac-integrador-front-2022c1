@@ -1,0 +1,53 @@
+.navbar{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding: 0;
+}
+.btn1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding-right:5px;
+}
+.btn2{
+    background-color: rgb(39, 211, 82); 
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    padding-right: 5px;
+}
+#box1{
+    margin: 0;
+    color: white;
+}
+#box1{
+    background-image: url(../img/ba1.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+.text-end{
+    padding-top: auto;
+    padding-right: 50px;
+}
+.btn{
+    font-weight:bold;
+    padding: 0;
+}
+.container.oradores{
+    margin-top: 40px;
+    text-align: center
+}
+.card{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    margin-top: 10px;
+    padding: auto;
+}
+.btn2{
+    background-color: transparent;
+    border-style: ridge;
+    border-width: 1px;
+}
