@@ -3,51 +3,72 @@
     padding-left: 5%;
     padding: 0;
 }
-.btn1{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    border-radius: 8px;
-    padding-right:5px;
-}
 .btn2{
     background-color: rgb(39, 211, 82); 
     color: white; 
     border: none;
     border-radius: 8px;
-    padding-right: 5px;
 }
-#box1{
-    margin: 0;
+#btng{
+    background-color: rgb(28, 181, 28);
+    border: none;
     color: white;
 }
-#box1{
-    background-image: url(../img/ba1.jpg);
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    z-index: -1;
+#btnt{
+    background-color: transparent;
+    border-color: white;
+    color: white;
 }
-.text-end{
-    padding-top: auto;
-    padding-right: 50px;
+#concepto{
+    padding-top: 25vh;
+    padding-bottom: 15%;
+    max-width: 600px;
 }
-.btn{
-    font-weight:bold;
-    padding: 0;
+#section3{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 .container.oradores{
-    margin-top: 40px;
-    text-align: center
+    margin-top: 2%;
+    text-align: center;
 }
 .card{
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
-    margin-top: 10px;
     padding: auto;
 }
 .btn2{
     background-color: transparent;
     border-style: ridge;
     border-width: 1px;
+}
+.div2 {
+    color: aliceblue;
+    width: auto;
+    height: 100vh;  
+    background-image:url(../img/ba1.jpg);
+    background-color: rgb(68, 63, 63);
+    background-blend-mode: soft-light;   
+}
+#btnsub{
+    background-color: rgba(17, 208, 17, 0.923);
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+#forms{
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#footer{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white; 
 }

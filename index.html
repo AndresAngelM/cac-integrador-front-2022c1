@@ -43,26 +43,28 @@
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <!-- Contenido Bs As-->
     <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="img-container col-sm-12 col-md-12 col-lg-12 p-0">
-                    <img src="img/honolulu.jpg" alt="" style="width:100%">
+        <div class="div2">
+            <div class="container" id="concepto">
+                <h1 class="text-end">Conf Bs As</h1>
+                <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in ullanisi necessitatibus! Id, amet quod, numquam cum voluptatem sinnecessitatibus non obcaecati nesciunt, sequi ullam eligendi pariatunostrum commodi!Lorem ipsum dolor sit amet consectetur adipisicing elitCum in </p>
+                <div class="float-end">
+                    <button type="button" class="btn" id="btnt">Quiero ser orador</button>
+                    <button type="button" class="btn" id="btng">Comprar tickets</button>
                 </div>
-
+            </div>
+        </div>
     </section>   
     <!-- Fin Contenido Bs As-->
     <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <!-- Comienzo Oradores-->
         <div class="container oradores">
-            <div>
-                <p>CONOCE A LOS</p>
-                <H2>ORADORES</H2>
-            </div>
+            <p>CONOCE A LOS</p>
+            <H2>ORADORES</H2>
         </div>
-        <section id="setion3">
+        <section id="section3">
             <div class="container">
                 <div class="row g-3">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <div class="card">
                             <img src="img/steve.jpg" alt="Steve">
                             <div class="card-body">
@@ -73,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <div class="card">
                             <img src="img/bill.jpg" alt="bill">
                             <div class="card-body">
@@ -84,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <div class="card">
                             <img src="img/ada.jpeg" alt="ada">
                             <div class="card-body">
@@ -98,6 +100,7 @@
                 </div>
             </div>
         </section>
+        <br>
         <!-- Fin de oradores-->
         <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         <!-- comienzo hawai-->
@@ -107,30 +110,63 @@
                     <div class="img-container col-sm-6 col-md-6 col-lg-6 p-0">
                         <img src="img/honolulu.jpg" alt="" style="width:100%">
                     </div>
-                        <div class="col-sm-6 col-md-6 col-lg-6 p-10" style="background-color: #2e3438; color: white;">
-                            <h2>Bs As - Octubre</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto placeat deserunt alias quod neque possimus commodi laudantium, consequatur a magni molestiae facilis exercitationem. Cumque vero iusto dolor quos et id.</p>
-                            <button type="button" class="btn2">Conoce mas</button>
+                        <div class="col-sm-6 col-md-6 col-lg-6" style="background-color: #2e3438; color: white;">
+                            <div class="octubre">
+                                <h2>Bs As - Octubre</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto placeat deserunt alias quod neque possimus commodi laudantium, consequatur a magni molestiae facilis exercitationem. Cumque vero iusto dolor quos et id.</p>
+                                <button type="button" class="btn2">Conoce mas</button>
+                            </div>
                         </div>
                     </div>          
                 </div>
             </div>
         </section>
-         <!-- Fin hawai-->
-         <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <!-- Fin hawai-->
 
+        <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
+        <!-- Formulario -->
 
+        <div class="container" id="forms" >
+            <p class="text-center">CONVIERTETE EN UN</p>
+            <H1 class="text-center">ORADOR</H1>
+            <P class="text-center">Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</P>
+            <form class="row g-3">
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control" id="mensaje" cols="10" rows="5" placeholder="Sobre que quieres hablar?"></textarea>
+                    <label for="mensaje" >Recuerda incluir un titulo para tu charla</label>
+                  </div>
+                  <input id="btnsub" type="submit" name="enviar">
+            </form>
+        </div>
 
+        <!-- Formulario -->
 
+        <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
+        <!-- Footer -->
 
+    <nav class="navbar-nav" style="background-color: rgb(11, 35, 115);">
+            <div class="container-fluid">
+                <ul id="footer" class="navbar">
+                    <li ><a class="nav-link" href="#"></a>Preguntas Frecuentes</li>
+                    <li ><a class="nav-link" href="#"></a>Contactenos</li>
+                    <li ><a class="nav-link" href="#"></a>Prensa</li>
+                    <li ><a class="nav-link" href="#"></a>Conferencia</li>
+                    <li ><a class="nav-link" href="#"></a>Terminos y Condiciones</li>
+                    <li ><a class="nav-link" href="#"></a>Privacidad</li>
+                    <li ><a class="nav-link" href="#"></a>Estudiantes</li>
+                </ul>
+            </div>
+    </nav>
 
-
-
-
-
-        <!-- Fin de hawai-->
+        <!-- End footer-->
        
     <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
